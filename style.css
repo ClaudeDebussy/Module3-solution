@@ -102,7 +102,7 @@ div.back-to-top span {
 }
 
 @media (max-width: 576px) {
-	div.main-section p {font-size: .8em; font-weight: 300}
+	div.main-section p {font-size: 1em; font-weight: 300}
 	#container-for-box {
 		margin: 0 auto;
 	}
