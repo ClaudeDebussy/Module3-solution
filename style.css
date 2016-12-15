@@ -1,4 +1,8 @@
 /**********CUSTOM CSS STYLING FOR SITE**********/
+/*
+* {
+	text-decoration: none !important;
+}*/
 
 body {
 	background-color: #5BBA6F;
@@ -89,12 +93,22 @@ div.back-to-top {
 	text-align: right;
 	padding-right: 5px;
 	padding-bottom: 5px;
+	background-color: #92C9B1;
+	padding-top: 5px;
 } 
 
-div.back-to-top span {
+div.back-to-top a span {
 	color: #435058;
-	
 } 
+
+div.back-to-top a:hover, div.back-to-top a span:focus {
+	text-decoration: none;
+}
+
+div.back-to-top a span:hover {
+	color: #137547;
+	}
+
 
 @media (min-width: 768px) {
 	.navbar {height: 100px;}
